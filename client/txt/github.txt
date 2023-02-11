@@ -1,0 +1,19 @@
+Se você fez algo errado no GitHub e quer refazer a partir do começo, você pode usar o comando
+ git reset para descartar as alterações não confirmadas e retornar ao último estado confirmado. 
+ Aqui estão alguns exemplos de como você pode usar esse comando:
+
+Para descartar todas as alterações no branch atual, incluindo arquivos adicionados mas não 
+confirmados:
+css
+Copie o código
+git reset --hard HEAD
+Para descartar apenas as alterações em um arquivo específico:
+javascript
+Copie o código
+git checkout HEAD -- nome-do-arquivo.extensão
+Para retornar a um estado anterior em seu histórico de confirmações, você pode usar o hash do commit:
+perl
+Copie o código
+git reset --hard hash-do-commit
+Lembre-se que, uma vez que as alterações são descartadas, elas não podem ser recuperadas. 
+Certifique-se de ter uma cópia de segurança das alterações antes de usar esses comandos.
