@@ -1,0 +1,8 @@
+Este erro ocorre porque você está tentando importar um arquivo que está fora da pasta src do 
+seu projeto. O React e o Webpack, que é o responsável por compilar o código, só permitem que 
+você importe arquivos relativos que estejam dentro da pasta src.
+
+Para resolver este problema, você pode mover o arquivo para dentro da pasta src, ou criar um 
+link simbólico do arquivo dentro da pasta node_modules do seu projeto. Para criar um link 
+simbólico, você pode usar o comando ln -s /caminho/para/arquivo node_modules/arquivo no terminal.
+Depois, você pode importar o arquivo a partir da pasta node_modules.

@@ -1,3 +1,4 @@
+const path = require('path')
 const express = require('express');
 const dotenv = require('dotenv').config();
 const port = process.env.PORT || 5000
@@ -11,6 +12,11 @@ app.use(express.json());
 ///codificados em URL. O parâmetro "extended" está definido como "false", o que significa 
 ///que somente dados simples serão suportados.
 app.use(express.urlencoded({extended: false}))
+
+//Configurar a pasta estática
+app.use(express.static(path.join(__dirname, 'public-img')))
+
+
 //Adiciona um manipulador de rota para a rota "/openai". A rota "/openai" será gerenciada 
 //pelas rotas definidas no arquivo "./routes/openaiRoutes.js
 app.use('/openai', require('./routes/openaiRoutes'));
