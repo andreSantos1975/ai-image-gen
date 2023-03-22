@@ -6,3 +6,52 @@ Para resolver este problema, você pode mover o arquivo para dentro da pasta src
 link simbólico do arquivo dentro da pasta node_modules do seu projeto. Para criar um link 
 simbólico, você pode usar o comando ln -s /caminho/para/arquivo node_modules/arquivo no terminal.
 Depois, você pode importar o arquivo a partir da pasta node_modules.
+-------------------------------------------------------------------------------------------------------
+------------------------------------------- 12/02/2023 ------------------------------------------------
+------------------------------------------- INTELIGENCIA ARTIFICIAL -----------------------------------
+-------------------------------------------------------------------------------------------------------
+A inteligência artificial é uma área em constante evolução e as tendências futuras para esta tecnologia são diversas. Aqui estão algumas das tendências mais notáveis:
+
+IA de borda: a IA de borda é uma tendência crescente na qual a inteligência artificial é colocada no dispositivo em si, em vez de ser transmitida para a nuvem para processamento. Isso permite uma resposta mais rápida e eficiente, especialmente em aplicações em tempo real, como veículos autônomos ou dispositivos IoT.
+
+Aprendizado profundo: o aprendizado profundo é uma das formas mais avançadas de IA e tem se mostrado cada vez mais eficaz em várias aplicações, como reconhecimento de voz e imagem. No futuro, espera-se que o aprendizado profundo seja aplicado a uma ampla gama de outras áreas, como saúde, finanças e jogos.
+
+Humanização da IA: uma tendência importante é a humanização da IA, onde as interações com os sistemas de IA se tornam mais naturais e semelhantes às interações humanas. Isso inclui desenvolver tecnologias de reconhecimento de voz e de linguagem mais avançadas, bem como desenvolver interfaces com usuários mais intuitivas.
+
+Uso da IA para a resolução de problemas sociais: a IA está sendo cada vez mais utilizada para solucionar problemas sociais e ambientais, como a previsão de desastres naturais, a luta contra doenças e a mitigação do aquecimento global.
+
+Estas são apenas algumas das tendências futuras da inteligência artificial, e espera-se que a tecnologia continue a evoluir e a se expandir para outras áreas e aplicações no futuro.
+------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------- IA DE BORDA ---------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+Se você está interessado em aprender sobre IA de borda, há algumas áreas de estudo que você deve considerar:
+
+Aprendizado de Máquina: é importante ter uma compreensão sólida dos algoritmos de aprendizado de máquina, como regressão, classificação, clustering e redes neurais, para entender como a IA pode ser usada para análise de dados.
+
+Arquitetura de Sistemas Embarcados: a IA de borda requer a implantação de modelos de aprendizado de máquina em dispositivos de borda, como sensores, câmeras e outros dispositivos IoT. É importante ter conhecimento sobre arquitetura de sistemas embarcados, como processadores, memória, comunicação sem fio e sistemas operacionais embarcados.
+
+Linguagens de Programação: é importante ter conhecimento em uma ou mais linguagens de programação para implementar modelos de aprendizado de máquina e desenvolver aplicativos de IA de borda. Linguagens populares incluem Python, C++, Java e R.
+
+Redes de Computadores: é importante ter conhecimento sobre redes de computadores, especialmente sobre protocolos de comunicação sem fio, como Bluetooth, Wi-Fi e 5G, para compreender como os dispositivos de borda podem se comunicar uns com os outros e com a nuvem.
+
+Edge Computing: é importante compreender os conceitos e as aplicações do Edge Computing, que é a capacidade de processar dados no local, próximo ao dispositivo de borda, em vez de na nuvem.
+
+Estas são apenas algumas das áreas de estudo que você pode considerar ao aprender sobre IA de borda. É importante que você adquira uma compreensão sólida destas áreas para se tornar proficiente em IA de borda.
+---------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------- IA APRENDIZADO PROFUNDO ---------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
+Se você está interessado em aprender sobre Aprendizado Profundo (Deep Learning, em inglês), há algumas áreas de estudo que você deve considerar:
+
+Matemática: é importante ter uma boa compreensão de matemática, incluindo álgebra linear, cálculo e probabilidade para entender os conceitos subjacentes ao aprendizado profundo.
+
+Aprendizado de Máquina: é importante ter uma compreensão sólida dos algoritmos de aprendizado de máquina, como regressão, classificação e clustering, antes de mergulhar no aprendizado profundo.
+
+Redes Neurais: as redes neurais são a base do aprendizado profundo e é importante ter uma compreensão profunda de diferentes tipos de redes neurais, como Perceptrons, MLP, CNN e RNN, bem como suas aplicações.
+
+Linguagens de Programação: é importante ter conhecimento em uma ou mais linguagens de programação para implementar modelos de aprendizado profundo e desenvolver aplicativos de IA. Linguagens populares incluem Python, R e MATLAB.
+
+Ferramentas de Aprendizado Profundo: é importante familiarizar-se com as ferramentas de aprendizado profundo, como TensorFlow, PyTorch, Caffe e Keras, para implementar modelos de aprendizado profundo e treiná-los.
+
+Dados: é importante ter conhecimento sobre coleta, processamento e análise de dados para preparar e utilizar conjuntos de dados para treinar modelos de aprendizado profundo.
+
+Estas são apenas algumas das áreas de estudo que você pode considerar ao aprender sobre aprendizado profundo. É importante que você adquira uma compreensão sólida destas áreas para se tornar proficiente em aprendizado profundo. Além disso, é importante praticar frequentemente, trabalhando em projetos e participando de competições de aprendizado de máquina, para aprimorar suas habilidades e se manter atualizado com as últimas tendências e desenvolvimentos na área.

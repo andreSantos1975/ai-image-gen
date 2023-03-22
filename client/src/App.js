@@ -1,10 +1,11 @@
 
 import './App.css';
+import PageImageGen from './components/PageImageGen';
 
 function App() {
   return (
     <div className="App">
-      <h1>Ola Mundo!</h1>
+      <PageImageGen />
     </div>
   )
 }

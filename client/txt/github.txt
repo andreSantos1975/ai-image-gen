@@ -17,3 +17,54 @@ Copie o código
 git reset --hard hash-do-commit
 Lembre-se que, uma vez que as alterações são descartadas, elas não podem ser recuperadas. 
 Certifique-se de ter uma cópia de segurança das alterações antes de usar esses comandos.
+
+------------------------------------------------------------------------------------------
+--------------------------- LINK SIMBÓLICO ----------------------------------------------
+Não é necessário entrar na pasta "node_modules" antes de criar o link simbólico. Você pode criar o 
+link simbólico na pasta "node_modules" a partir de qualquer outra pasta, desde que você tenha as
+ permissões necessárias para acessar e modificar a pasta.
+
+Por exemplo, se você estiver no diretório raiz do seu projeto, pode usar o seguinte comando 
+para criar um link simbólico na pasta "node_modules":
+
+bash
+Copie o códio
+ln -s /caminho/para/arquivo node_modules/arquivo
+Esse comando criará um link simbólico chamado "arquivo" que aponta para o arquivo localizado 
+no caminho absoluto "/caminho/para/arquivo". O link simbólico será criado 
+na pasta "node_modules" no diretório atual.
+Você pode verificar se o link simbólico foi criado corretamente
+ usando o comando ls ou dir (dependendo do sistema operacional que você está usando) 
+ na pasta "node_modules". O link simbólico aparecerá como um arquivo com um ícone especial 
+ ou uma seta ao lado do nome, indicando que ele é um link simbólico em vez de um arquivo real.
+
+Por exemplo, se você criou um link simbólico chamado "arquivo" na pasta "node_modules", você pode 
+verificar se ele foi criado corretamente com o seguinte comando no terminal ou no prompt de comando:
+
+bash
+Copie o código
+cd node_modules
+ls -l
+Isso exibirá uma lista de todos os arquivos e links simbólicos na pasta "node_modules". 
+Se o link simbólico "arquivo" foi criado corretamente, você verá sua entrada na lista.
+
+Lembre-se de que, se você estiver usando um sistema operacional Windows, você precisará usar 
+o comando dir ao invés de ls.
+----------------------------------------------------------------------------------------
+-------------------------REMOVER LINK SIMBÓLICO -------------------------------------------
+
+Você pode remover um link simbólico usando o comando rm no terminal ou no prompt de comando.
+
+Por exemplo, se você tem um link simbólico chamado "arquivo" na pasta "node_modules", você
+ pode removê-lo 
+com o seguinte comando:
+
+bash
+Copiar código
+rm node_modules/arquivo
+Esse comando removerá o link simbólico "arquivo" da pasta "node_modules". Lembre-se de que, 
+ao remover um link simbólico, você não está removendo o arquivo real apontado pelo link. Apenas 
+o link simbólico é removido.
+
+Lembre-se também de que você precisa ter as permissões necessárias para remover o link 
+simbólico na pasta "node_modules".

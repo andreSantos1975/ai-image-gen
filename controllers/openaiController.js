@@ -13,9 +13,9 @@ const configuration = new Configuration({
 //A instância da classe "OpenAIApi" será usada para realizar chamadas à API do OpenAI.
 const openaiClient = new OpenAiApi(configuration);
 //Define a função "generateImage". Esta é uma função assíncrona que será executada 
-//quando a rota correspondente for acionada. A função recebe
-// dois parâmetros: "req" e "res". O objeto "req" contém informações sobre a solicitação, 
-//enquanto o objeto "res" será usado para enviar uma resposta à solicitação.
+//,quando a rota correspondente for acionada. A função recebe
+// ,dois parâmetros: "req" e "res". O objeto "req" contém informações sobre a solicitação, 
+//,enquanto o objeto "res" será usado para enviar uma resposta à solicitação.
 const generateImage = async (req, res) => {
    //Desestrutura o objeto "req.body" para obter o "prompt" e o "size". 
    const { prompt, size } = req.body;
